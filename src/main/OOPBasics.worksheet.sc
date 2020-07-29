@@ -33,7 +33,7 @@ swanLake.authorAge()
 swanLake.isWrittenBy()
 swanLake.copy(2001)
 
-class Writer(firstName: String, surname: String,val year: Int){
+class Writer(firstName: String, surname: String, val year: Int){
   def showFullname(): String = s"$firstName $surname"
 }
 
